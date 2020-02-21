@@ -1,0 +1,20 @@
+.divTable { 
+    width: 50%;
+    height: 500px;
+     border-color: black;
+     border-width: '2px';
+     border-style: 'Solid';
+     margin: '0'
+}
+
+.divFilter { 
+         background: 'blue';
+         width: 100%;
+         height: 40px;
+         margin: 0
+}
+
+.pFilter { 
+       color: white;
+       font-size: '18px'
+}

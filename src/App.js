@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './Header'
+import Table from './Table'
+import {address} from './users.js'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends React.Component{
+
+  state = { 
+    address: address
+  };
+
+  render() { 
+    return (
+          <div>
+            <Header />
+            <Table user = 'Driver' address = {this.state.address} />
+            <Table user = 'Passenger' address = {this.state.address} />
+          </div>
+      )
+  }
 }
 
 export default App;
