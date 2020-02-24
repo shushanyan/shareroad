@@ -11,11 +11,11 @@ class App extends React.Component{
   };
 
   render() { 
-    return (
+    return ( 
           <div>
             <Header />
-            <Table user = 'Driver' address = {this.state.address} />
             <Table user = 'Passenger' address = {this.state.address} />
+            <Table user = 'Driver' address = {this.state.address} />
           </div>
       )
   }
