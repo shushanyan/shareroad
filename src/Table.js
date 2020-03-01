@@ -3,12 +3,13 @@ import  AddressRow from './AddressRow'
 
 let divTable = { 
     width: '66%',
-    height: '660px',
+    height: '720px',
     borderColor: 'black',
     borderWidth: '2px',
     borderStyle: 'Solid',
     marginTop: '30px',
-    marginLeft: '20%'
+    marginLeft: '20%',
+    paddingLeft:'10px'
 }
 
 let divFilter = { 
