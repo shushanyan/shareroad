@@ -23,6 +23,7 @@ class AddressRow extends React.Component{
                    
                     <p> <b>from</b> {this.props.address1}  <b>to</b>  {this.props.address2}</p>
                     <p> <b>phone: </b>{this.props.phone}</p>
+                    <button>Click</button>
                     <hr/>
                     <div className="for_save_btn">
                         <Button title ="Save" style={buttonStyle}/>
